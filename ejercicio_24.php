@@ -18,7 +18,7 @@
         $fill=$_REQUEST["fill"];
             for ($i=0; $i < $h; $i++) { 
                 for ($j=0; $j <= $i; $j++) { 
-                    echo "a&nbsp;";
+                    echo "0&nbsp;";
                 }
                 echo "<br />";
             }
