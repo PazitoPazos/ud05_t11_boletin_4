@@ -28,7 +28,7 @@
                 if ($_REQUEST["num"] % 2 == 0) {
                     $par = $_REQUEST["num"];
                     if (($par % 2 == 0) && ($par > $max_par)) {
-                        $max_par = $impares=intval(isset($_REQUEST["max_par"])?$par:0);
+                        $max_par = intval(isset($_REQUEST["max_par"])?$par:0);
                     }
                 } else {
                     $impares=intval(isset($_REQUEST["impares"])?$_REQUEST["impares"]+1:0);
