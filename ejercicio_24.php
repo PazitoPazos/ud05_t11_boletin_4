@@ -15,7 +15,6 @@
 
         <?php
         $h=isset($_REQUEST["num"])&&is_numeric($_REQUEST["num"])?intval($_REQUEST["num"]):"a";
-        $fill=$_REQUEST["fill"];
             for ($i=0; $i < $h; $i++) { 
                 for ($j=0; $j <= $i; $j++) { 
                     echo "0&nbsp;";
